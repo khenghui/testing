@@ -3,19 +3,17 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
-        "reromicro": "github:rerokit/pxt-reromicro#v0.1.1",
-        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0"
+        "reromicro": "github:rerokit/pxt-reromicro#v0.1.1"
     },
     "files": [
         "main.blocks",
+        "README.md",
+        "main.py",
         "main.ts",
-        "README.md"
+        "testing.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "targetVersions": {
         "target": "6.0.8",
         "targetId": "microbit"
@@ -23,5 +21,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
